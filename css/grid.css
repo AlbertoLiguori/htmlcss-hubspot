@@ -1,0 +1,78 @@
+.clear::after{
+              content:"";
+              clear:both;
+              display:table;
+}
+
+/* scrivendo tra parentesi quadre "classe*=" intendo considerare tutte le classi(*) che
+contengono (=) nel loro nome "col-"*/
+[class*="col-"]{
+                border:solid 1px black;
+                float:left;     /* Ogni colonna sarà un elemento flottante */
+
+}
+/*Volendo ottenere dei layout attribuisco ad ogni colonna una percentuale di
+ampiezza. Volendo suddividere la viewportin 12 colonne ogni colonna sarà 1/12 della viewport.
+In questo caso cosideriamo inoltre che 100 viewport=100% pertanto:100% diviso 12 = 8.33% */
+.col-1{width:8.33%;}
+
+.col-2{width:16.66%;}
+
+.col-3{width:25%;}
+
+.col-4{width:33.33%;}
+
+.col-5{width:41.66%;}
+
+.col-6{width:50%;}
+
+.col-7{width:58.33%;}
+
+.col-8{width:66.66%;}
+
+.col-9{width:75%;}
+
+.col-10{width:83.33%;}
+
+.col-11{width:91.66%;}
+
+.col-12{width:100%;}
+
+
+
+
+.row-1{height:6.66vh;}
+
+.row-2{height:13.33vh;}
+
+.row-3{height:20.00vh;}
+
+.row-4{height:26.66vh;}
+
+.row-5{height:33.33vh;}
+
+.row-6{height:40.00vh;}
+
+.row-7{height:46.66vh;}
+
+.row-8{height:53.33vh;}
+
+.row-9{height:60vh;}
+
+.row-10{height:66.66vh;}
+
+.row-11{height:73.33vh;}
+
+.row-12{height:80vh;}
+
+.row-13{height:86.66vh;}
+
+.row-14{height:93.33vh;}
+
+.row-15{height:100vh;}
+
+
+
+
+
+}
