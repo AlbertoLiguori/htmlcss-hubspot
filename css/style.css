@@ -4,13 +4,36 @@
   box-sizing:border-box;
 }
 
-/* header{
-  width: 100vw;
-  height:80vh;
+header{
+  background-color: #ffe6e6
 }
-.bar{
 
-  height:10%;
-  background-color: lightblue;
-  border-bottom:1px solid black;
-} */
+nav {
+  background-color: white;
+}
+
+#top-bar{
+  background-color: #cce6ff;
+}
+
+#bottom-bar{
+  background-color: #b3fff0;
+  border-top: 2px solid #0077b3;
+  border-bottom: 2px solid #0077b3
+}
+
+#header-image{
+  background-image: url("../img/temporarybg.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.button{
+  color:white;
+  width:20%;
+  height:15%;
+  background-color: darkorange;
+  border-radius: 15px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
