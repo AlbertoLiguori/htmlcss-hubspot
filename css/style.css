@@ -6,7 +6,6 @@
 
 header{
   position:relative;
-  background-color: #ffe6e6;
 }
 
 header a{
@@ -21,6 +20,10 @@ nav {
   background-color: white;
 }
 
+.container{
+  padding-left: 16.66%;
+  padding-right: 16.66%;
+}
 /* TOP-BAR */
 .top-bar{
   background-color: #cce6ff;
