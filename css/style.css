@@ -200,3 +200,51 @@ nav {
 }
 
 /* ASIAN GIRL SECTION */
+
+.asiangirl-left-section-top{
+  height:30%;
+  border:1px solid black;
+}
+
+.asiangirl-left-section-top-title{
+  height:50%;
+  border:1px solid black;
+}
+
+.asiangirl-left-section-top-paragraph{
+  height:50%;
+  border:1px solid black;
+}
+
+.asiangirl-left-section-below{
+  height:70%;
+  border:1px solid black;
+
+}
+
+[class*="asiangirl-left-section-bottom"]{
+  height:25%;
+  border:1px solid black;
+}
+
+.sponsorlogo{
+  height:30%;
+  background-image: url("../img/sponsorlogos.png");
+  background-size: 100% 100%;
+  border:1px solid black;
+}
+
+.asiangirl-photo{
+  height:70%;
+  /* background-image: url("../img/asiangirl.png"); */
+  /* background-size: 70% auto;
+  background-repeat: no-repeat; */
+  border:1px solid black;
+
+}
+
+.model{
+  height:100%;
+  width:auto;
+  float:right;
+}
