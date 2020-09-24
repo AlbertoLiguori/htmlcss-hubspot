@@ -116,3 +116,87 @@ nav {
   border:1px solid black;
 
 }
+
+/* THREE-COLUMN SECTION */
+
+.left-column,.right-column,.middle-column{
+  text-align: center;
+}
+
+
+[class*="column-image"]{
+  height:15%;
+  border:1px solid black;
+}
+
+[class*="column-title"]{
+  height:15%;
+  border:1px solid black;
+}
+
+[class*="column-paragraph"]{
+  height:40%;
+  border:1px solid black;
+}
+
+/* THREE COLUMNS SECTION - BOTTOM COLUMN LAYOUT */
+[class*="sub-column-bottom"]{
+  height:30%;
+  border:1px solid black;
+}
+
+[class*="column-bottom-title"]{
+  height:33%;
+  border:1px solid black;
+}
+
+[class*="column-bottom-list"]{
+  height:34%;
+  border:1px solid black;
+}
+
+[class*="column-bottom-button"]{
+  height:33%;
+  border:1px solid black;
+}
+
+/* AZURE-SECTION */
+
+.azure-section{
+  background-color: #5cd6d6;
+  text-align: center;
+  color: white;
+}
+
+.azure-section-title{
+  height:20%;
+  border:1px solid black;
+}
+
+.azure-section-paragraph{
+  height:20%;
+  border:1px solid black;
+}
+
+/* AZURE-SECTION GRID */
+
+.azure-section-grid{
+  height:60%;
+  border:1px solid black;
+}
+
+.azure-section-grid-first-line,.azure-section-grid-second-line{
+  height:50%;
+  border:1px solid black;
+}
+
+[class*="azure-section-grid-first-row"],[class*="azure-section-grid-second-row"]{
+  height:100%;
+}
+
+[class*="block"]{
+  height:33%;
+  border:1px solid black;
+}
+
+/* ASIAN GIRL SECTION */
