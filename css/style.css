@@ -248,3 +248,32 @@ nav {
   width:auto;
   float:right;
 }
+
+/* BAGGIANATE */
+.bg-petrol{
+  background-color: #145252;
+}
+
+.four-columns-baggianate{
+  height:70%;
+}
+
+[class*="baggianate-col"]{
+  height:100%;
+}
+
+.baggianate-footer{
+  height:30%
+}
+
+[class*="baggianate-title"]{
+  height:15%;
+  width:100%;
+  border:1px solid black;
+}
+
+[class*="baggianate-list"]{
+  height:65%;
+  width:100%;
+  border:1px solid black;
+}
