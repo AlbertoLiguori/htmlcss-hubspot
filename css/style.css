@@ -18,7 +18,22 @@ nav {
   background-color: #cce6ff;
 }
 
+.login{
+  text-align: right;
+}
+
 /* TITLE-SECTION */
+
+.bg{
+  background-image: url(../img/bghubspot.jpg);
+  background-size: 100% 100%;
+}
+
+.bg-light-blue{
+  background-color: #e6faff;
+}
+
+
 .right-title-section{
   background-image: url("../img/temporarybg.png");
   background-size:cover;
@@ -48,8 +63,8 @@ nav {
   height:15%;
   background-color: darkorange;
   border-radius: 15px;
-  margin-top: 15%;
-  margin-bottom: 15%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 /* BOTTOM-BAR */
 .bottom-bar{
@@ -254,6 +269,10 @@ nav {
   background-color: #145252;
 }
 
+.baggianate{
+  color:white;
+}
+
 .four-columns-baggianate{
   height:70%;
 }
@@ -276,4 +295,36 @@ nav {
   height:65%;
   width:100%;
   border:1px solid black;
+}
+
+[class*="baggianate-social"]{
+  height:20%;
+  width:100%;
+  border:1px solid black;
+}
+
+
+
+.baggianate-social-button{
+  height:50%;
+  border:1px solid black;
+}
+
+.baggianate-social-icons{
+  height:50%;
+  border:1px solid black;
+}
+
+.language-selection{
+  height:30%;
+}
+
+.language-selector li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.credits-right{
+  text-align: right;
+  text-decoration: none;
 }
