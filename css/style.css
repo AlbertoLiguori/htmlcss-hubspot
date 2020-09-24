@@ -2,10 +2,12 @@
   margin:0;
   border:0;
   box-sizing:border-box;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 header{
   position:relative;
+  color:rgb(0, 43, 128, 0.8)
 }
 
 header a{
@@ -49,7 +51,6 @@ nav {
   background-image: url("../img/temporarybg.png");
   background-size:cover;
   background-repeat: no-repeat;
-  z-index:1;
 
 }
 
@@ -77,9 +78,9 @@ nav {
   color:white;
   width:40%;
   height:50%;
-  background-color: darkorange;
+  background-color: #fe6f51;
   border-radius: 5px;
-  margin-top: auto;
+  margin-top: 5%;
   margin-bottom: auto;
 }
 /* BOTTOM-BAR */
@@ -91,6 +92,8 @@ nav {
 /* CUBE-SECTION */
 
 .cube-section{
+  background-color: rgb(244, 249, 253);
+  color:rgb(0, 43, 128, 0.8);
   text-align: center;
 }
 
@@ -138,28 +141,17 @@ nav {
   border:1px solid black;
 }
 
-.right-fh-section-top{
+[class*=right-fh-section]{
+  color:rgb(0, 43, 128, 0.8);
   height:33%;
   border:1px solid black;
-
-}
-
-.right-fh-section-middle{
-  height:33%;
-  border:1px solid black;
-
-}
-
-.right-fh-section-bottom{
-  height:33%;
-  border:1px solid black;
-
 }
 
 /* THREE-COLUMN SECTION */
 
 .left-column,.right-column,.middle-column{
   text-align: center;
+  color:rgb(0, 43, 128, 0.8);
 }
 
 
@@ -173,18 +165,18 @@ nav {
 }
 
 [class*="column-title"]{
-  height:15%;
+  height:10%;
   border:1px solid black;
 }
 
 [class*="column-paragraph"]{
-  height:40%;
+  height:35%;
   border:1px solid black;
 }
 
 /* THREE COLUMNS SECTION - BOTTOM COLUMN LAYOUT */
 [class*="sub-column-bottom"]{
-  height:30%;
+  height:40%;
   border:1px solid black;
 }
 
@@ -198,6 +190,11 @@ nav {
   border:1px solid black;
 }
 
+[class*="column-bottom-list"] ul{
+  text-align: left;
+  list-style-image:url("../img/bullet.png");
+}
+
 [class*="column-bottom-button"]{
   height:33%;
   border:1px solid black;
@@ -206,7 +203,7 @@ nav {
 /* AZURE-SECTION */
 
 .azure-section{
-  background-color: #5cd6d6;
+  background-color: rgb(14, 170, 172, 0.9);
   text-align: center;
   color: white;
 }
@@ -247,25 +244,29 @@ nav {
 .asiangirl-left-section-top{
   height:30%;
   border:1px solid black;
+  color:rgb(0, 43, 128, 0.8);
 }
 
 .asiangirl-left-section-top-title{
   height:50%;
   border:1px solid black;
+  color:rgb(0, 43, 128, 0.8);
 }
 
 .asiangirl-left-section-top-paragraph{
   height:50%;
   border:1px solid black;
+  color:rgb(0, 43, 128, 0.8);
 }
 
 .asiangirl-left-section-below{
   height:70%;
   border:1px solid black;
-
+  color:rgb(0, 43, 128, 0.8);
 }
 
 [class*="asiangirl-left-section-bottom"]{
+  color:rgb(0, 43, 128, 0.8);
   height:25%;
   border:1px solid black;
 }
@@ -279,11 +280,7 @@ nav {
 
 .asiangirl-photo{
   height:70%;
-  /* background-image: url("../img/asiangirl.png"); */
-  /* background-size: 70% auto;
-  background-repeat: no-repeat; */
   border:1px solid black;
-
 }
 
 .model{
@@ -294,7 +291,7 @@ nav {
 
 /* BAGGIANATE */
 .bg-petrol{
-  background-color: #145252;
+  background-color: rgb(51, 74, 91);
 }
 
 .baggianate{
@@ -325,13 +322,26 @@ nav {
   border:1px solid black;
 }
 
+[class*="baggianate-list-col"] ul{
+  padding:0;
+}
+
+[class*="baggianate-list-col"] ul li{
+  list-style: none;
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+
 [class*="baggianate-social"]{
-  text-align: center;
+  text-align: left;
   height:25%;
   width:100%;
   border:1px solid black;
 }
 
+[class*="baggianate-social"] i{
+  margin-right:10%;
+}
 
 
 .baggianate-social-button{
