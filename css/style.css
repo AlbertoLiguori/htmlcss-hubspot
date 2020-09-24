@@ -9,6 +9,14 @@ header{
   background-color: #ffe6e6;
 }
 
+header a{
+  line-height: 600%;
+  margin:2%;
+  color:darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 nav {
   background-color: white;
 }
@@ -53,16 +61,21 @@ nav {
 }
 
 .left-title-section-bottom{
-  height:50%;
+  height:25%;
+  border:1px solid black
+}
+
+.left-title-section-bottom-button{
+  height:25%;
   border:1px solid black
 }
 
 .button{
   color:white;
-  width:20%;
-  height:15%;
+  width:40%;
+  height:50%;
   background-color: darkorange;
-  border-radius: 15px;
+  border-radius: 5px;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -104,12 +117,20 @@ nav {
 }
 
 /* FH-SECTION */
+
+.left-fh-section{
+  height:100%;
+  border:1px solid black;
+}
+
 .left-fh-section-top{
+  text-align: center;
   height:50%;
   border:1px solid black;
 }
 
 .left-fh-section-bottom{
+  text-align: center;
   height:50%;
   border:1px solid black;
 }
@@ -142,6 +163,10 @@ nav {
 [class*="column-image"]{
   height:15%;
   border:1px solid black;
+}
+
+[class*="column-image"] img{
+  height:100%;
 }
 
 [class*="column-title"]{
@@ -292,13 +317,14 @@ nav {
 }
 
 [class*="baggianate-list"]{
-  height:65%;
+  height:60%;
   width:100%;
   border:1px solid black;
 }
 
 [class*="baggianate-social"]{
-  height:20%;
+  text-align: center;
+  height:25%;
   width:100%;
   border:1px solid black;
 }
@@ -316,15 +342,24 @@ nav {
 }
 
 .language-selection{
+  text-align: center;
   height:30%;
+  border-bottom: 1px solid white;
 }
 
 .language-selector li {
   text-decoration: none;
   display: inline-block;
+  margin:2%;
 }
 
-.credits-right{
+.credits-right {
   text-align: right;
   text-decoration: none;
+}
+
+.credits-right a{
+  color: white;
+  text-decoration:none;
+  margin:2%;
 }
