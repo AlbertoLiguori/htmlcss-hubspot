@@ -7,7 +7,6 @@
 /* scrivendo tra parentesi quadre "classe*=" intendo considerare tutte le classi(*) che
 contengono (=) nel loro nome "col-"*/
 [class*="col-"]{
-                border:solid 1px black;
                 float:left;     /* Ogni colonna sarà un elemento flottante */
 
 }

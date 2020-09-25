@@ -13,7 +13,13 @@ header{
 }
 
 /* ADJUSTMENTS */
-.font-size-h1{
+/* .font-size-h1{
+  margin-top:2%;
+  font-size:50px;
+  line-height: 60px;
+} */
+
+h1{
   margin-top:2%;
   font-size:50px;
   line-height: 60px;
@@ -142,24 +148,9 @@ nav {
 
 }
 
-.left-title-section-top{
-  height:25%;
-  border:1px solid black;
-}
 
-.left-title-section-middle{
+[class*="left-title-section"]{
   height:25%;
-  border:1px solid black
-}
-
-.left-title-section-bottom{
-  height:25%;
-  border:1px solid black
-}
-
-.left-title-section-bottom-button{
-  height:25%;
-  border:1px solid black
 }
 
 .button{
@@ -188,18 +179,15 @@ nav {
 
 .cube-section-top{
   height:50%;
-  border:1px solid black;
   position:relative;
 }
 
 .cube-section-middle{
   height:25%;
-  border:1px solid black;
 }
 
 .cube-section-bottom{
   height:25%;
-  border:1px solid black;
 }
 
 .cube-image{
@@ -215,26 +203,22 @@ nav {
 
 .left-fh-section{
   height:100%;
-  border:1px solid black;
 }
 
 .left-fh-section-top{
   text-align: center;
   height:50%;
-  border:1px solid black;
 }
 
 .left-fh-section-bottom{
   text-align: center;
   height:50%;
-  border:1px solid black;
 }
 
 [class*=right-fh-section]{
   text-align: left;
   color:rgb(0, 43, 128, 0.8);
   height:33%;
-  border:1px solid black;
 }
 
 .right-fh-section-bottom ul li{
@@ -258,7 +242,6 @@ nav {
 
 [class*="column-image"]{
   height:15%;
-  border:1px solid black;
 }
 
 [class*="column-image"] img{
@@ -267,28 +250,23 @@ nav {
 
 [class*="column-title"]{
   height:10%;
-  border:1px solid black;
 }
 
 [class*="column-paragraph"]{
   height:35%;
-  border:1px solid black;
 }
 
 /* THREE COLUMNS SECTION - BOTTOM COLUMN LAYOUT */
 [class*="sub-column-bottom"]{
   height:40%;
-  border:1px solid black;
 }
 
 [class*="column-bottom-title"]{
   height:33%;
-  border:1px solid black;
 }
 
 [class*="column-bottom-list"]{
   height:34%;
-  border:1px solid black;
 }
 
 [class*="column-bottom-list"] ul{
@@ -298,7 +276,6 @@ nav {
 
 [class*="column-bottom-button"]{
   height:33%;
-  border:1px solid black;
 }
 
 /* AZURE-SECTION */
@@ -311,24 +288,36 @@ nav {
 
 .azure-section-title{
   height:20%;
-  border:1px solid black;
 }
 
 .azure-section-paragraph{
   height:20%;
-  border:1px solid black;
 }
 
 /* AZURE-SECTION GRID */
 
+.border-left{
+  border-left:1px solid white;
+}
+
+.border-right{
+  border-right:1px solid white;
+}
+
+.border-top{
+  border-top:1px solid white;
+}
+
+.border-bottom{
+  border-bottom:1px solid white;
+}
+
 .azure-section-grid{
-  height:60%;
-  border:1px solid black;
+  height:50%;
 }
 
 .azure-section-grid-first-line,.azure-section-grid-second-line{
   height:50%;
-  border:1px solid black;
 }
 
 [class*="azure-section-grid-first-row"],[class*="azure-section-grid-second-row"]{
@@ -337,53 +326,54 @@ nav {
 
 [class*="block"]{
   height:33%;
-  border:1px solid black;
+}
+
+.azure-section-grid span{
+  font-size:13px;
+  line-height: 60px;
+}
+
+.azure-section-grid img{
+  margin-top: 10px;
 }
 
 /* ASIAN GIRL SECTION */
 
 .asiangirl-left-section-top{
   height:40%;
-  border:1px solid black;
   color:rgb(0, 43, 128, 0.8);
 }
 
 .asiangirl-left-section-top-title{
   padding-left: 12.5%;
   height:50%;
-  border:1px solid black;
   color:rgb(0, 43, 128, 0.8);
 }
 
 .asiangirl-left-section-top-paragraph{
   padding-left: 12.5%;
   height:50%;
-  border:1px solid black;
   color:rgb(0, 43, 128, 0.8);
 }
 
 .asiangirl-left-section-below{
   height:60%;
-  border:1px solid black;
   color:rgb(0, 43, 128, 0.8);
 }
 
 [class*="asiangirl-left-section-bottom"]{
   color:rgb(0, 43, 128, 0.8);
-  height:30%;
-  border:1px solid black;
+  height:28%;
 }
 
 .sponsorlogo{
   height:30%;
   background-image: url("../img/sponsorlogos.png");
   background-size: 100% 100%;
-  border:1px solid black;
 }
 
 .asiangirl-photo{
   height:70%;
-  border:1px solid black;
 }
 
 .model{
@@ -413,13 +403,11 @@ nav {
 [class*="baggianate-title"]{
   height:15%;
   width:100%;
-  border:1px solid black;
 }
 
 [class*="baggianate-list"]{
   height:60%;
   width:100%;
-  border:1px solid black;
 }
 
 [class*="baggianate-list-col"] ul{
@@ -437,7 +425,6 @@ nav {
   text-align: left;
   height:25%;
   width:100%;
-  border:1px solid black;
 }
 
 [class*="baggianate-social"] i{
@@ -447,7 +434,6 @@ nav {
 
 .baggianate-social-button{
   height:50%;
-  border:1px solid black;
 }
 
 .button-w{
@@ -461,7 +447,6 @@ nav {
 
 .baggianate-social-icons{
   height:50%;
-  border:1px solid black;
 }
 
 /* FOOTER */
