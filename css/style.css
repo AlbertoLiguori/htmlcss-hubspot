@@ -3,8 +3,8 @@
   border:0;
   box-sizing:border-box;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 header{
@@ -38,7 +38,7 @@ header{
 }
 
 .small-span{
-  font-size:12px;
+  font-size:13px;
 }
 
 .margin-fix-tb{
@@ -370,7 +370,7 @@ nav {
 
 [class*="asiangirl-left-section-bottom"]{
   color:rgb(0, 43, 128, 0.8);
-  height:25%;
+  height:30%;
   border:1px solid black;
 }
 
@@ -427,9 +427,10 @@ nav {
 }
 
 [class*="baggianate-list-col"] ul li{
+  color:rgb(139, 151, 152);
   list-style: none;
   margin-top: 5%;
-  margin-bottom: 12%;
+  margin-bottom: 5%;
 }
 
 [class*="baggianate-social"]{
@@ -463,6 +464,7 @@ nav {
   border:1px solid black;
 }
 
+/* FOOTER */
 .language-selection{
   text-align: center;
   height:30%;
@@ -476,6 +478,7 @@ nav {
 }
 
 .credits-right {
+  margin-top: 3%;
   text-align: right;
   text-decoration: none;
 }
@@ -484,4 +487,9 @@ nav {
   color: white;
   text-decoration:none;
   margin:2%;
+}
+
+.credits-hubspot-logo{
+  margin-top: 5%;
+
 }
