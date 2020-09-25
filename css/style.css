@@ -12,12 +12,7 @@ header{
   color:rgb(0, 43, 128, 0.8)
 }
 
-/* ADJUSTMENTS */
-/* .font-size-h1{
-  margin-top:2%;
-  font-size:50px;
-  line-height: 60px;
-} */
+/* FONTS */
 
 h1{
   margin-top:2%;
@@ -25,7 +20,7 @@ h1{
   line-height: 60px;
 }
 
-.font-size-h2{
+h2{
   margin-top:2%;
   font-size:30px;
   line-height: 40px;
@@ -37,7 +32,7 @@ h1{
   line-height: 40px;
 }
 
-.font-size-h4{
+h4{
   margin-top:2%;
   font-size:20px;
   line-height: 35px;
@@ -46,6 +41,8 @@ h1{
 .small-span{
   font-size:13px;
 }
+
+/* ADJUSTMENTS */
 
 .margin-fix-tb{
   margin-top: 2%;
@@ -237,6 +234,8 @@ nav {
 .left-column,.right-column,.middle-column{
   text-align: center;
   color:rgb(0, 43, 128, 0.8);
+  padding-right:3%;
+  padding-left:3%;
 }
 
 
@@ -253,7 +252,7 @@ nav {
 }
 
 [class*="column-paragraph"]{
-  height:35%;
+  height:30%;
 }
 
 /* THREE COLUMNS SECTION - BOTTOM COLUMN LAYOUT */
@@ -262,7 +261,9 @@ nav {
 }
 
 [class*="column-bottom-title"]{
-  height:33%;
+  height:35%;
+  padding-top:8%;
+  border-top:1px solid grey;
 }
 
 [class*="column-bottom-list"]{
