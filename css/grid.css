@@ -22,6 +22,8 @@ In questo caso cosideriamo inoltre che 100 viewport=100% pertanto:100% diviso 12
 
 .col-4{width:33.33%;}
 
+.col-4m{width:31.5%}
+
 .col-5{width:41.66%;}
 
 .col-6{width:50%;}
@@ -84,5 +86,7 @@ In questo caso cosideriamo inoltre che 100 viewport=100% pertanto:100% diviso 12
 .row-6{height:350px;}
 
 .row-7{height:600px;}
+
+.row-7p{height:670px;}
 
 .row-8{height:450px;}

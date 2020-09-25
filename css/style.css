@@ -27,12 +27,62 @@ nav {
   padding-right: 16.66%;
 }
 /* TOP-BAR */
-.top-bar{
-  background-color: #cce6ff;
-}
+/* .top-bar{
+  background-color: #e6faff;
+} */
 
 .login{
   text-align: right;
+}
+
+.button-t{
+  color:#fe6f51;
+  width:20%;
+  height:50%;
+  background-color: white;
+  border:1px solid #fe6f51;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-right:2%;
+  margin-left: 4%;
+  margin-bottom: auto;
+}
+
+/* ADJUSTMENTS */
+.margin-fix-tb{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.margin-fix-lr{
+  margin-right: 2.75%;
+  margin-left: 2.75%;
+}
+
+.padding-fix-tb{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.padding-fix-lr{
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+/* BACKGROUNDS */
+.bg-light-blue{
+  background-color: rgb(244, 249, 253);
+}
+
+.bg-petrol{
+  background-color: rgb(51, 74, 91);
+}
+
+.paper{
+  background-color: white;
+  border:1px, solid lightgrey;
+  border-radius: 5px;
+
 }
 
 /* TITLE-SECTION */
@@ -41,11 +91,6 @@ nav {
   background-image: url(../img/bghubspot.jpg);
   background-size: 100% 100%;
 }
-
-.bg-light-blue{
-  background-color: #e6faff;
-}
-
 
 .right-title-section{
   background-image: url("../img/temporarybg.png");
@@ -83,6 +128,7 @@ nav {
   margin-top: 5%;
   margin-bottom: auto;
 }
+
 /* BOTTOM-BAR */
 .bottom-bar{
   background-color: #b3fff0;
@@ -142,9 +188,21 @@ nav {
 }
 
 [class*=right-fh-section]{
+  text-align: left;
   color:rgb(0, 43, 128, 0.8);
   height:33%;
   border:1px solid black;
+}
+
+.right-fh-section-bottom ul li{
+  display:inline-block;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.right-fh-section-bottom ul{
+  list-style-image:url("../img/bullet.png");
+  padding-left:0;
 }
 
 /* THREE-COLUMN SECTION */
@@ -290,9 +348,6 @@ nav {
 }
 
 /* BAGGIANATE */
-.bg-petrol{
-  background-color: rgb(51, 74, 91);
-}
 
 .baggianate{
   color:white;
@@ -347,6 +402,15 @@ nav {
 .baggianate-social-button{
   height:50%;
   border:1px solid black;
+}
+
+.button-w{
+  color:rgb(51, 74, 91);
+  width:75%;
+  height:90%;
+  background-color: lightgrey;
+  border-radius: 5px;
+  margin-bottom: auto;
 }
 
 .baggianate-social-icons{
