@@ -3,12 +3,80 @@
   border:0;
   box-sizing:border-box;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 header{
   position:relative;
   color:rgb(0, 43, 128, 0.8)
 }
+
+/* ADJUSTMENTS */
+.font-size-h1{
+  margin-top:2%;
+  font-size:50px;
+  line-height: 60px;
+}
+
+.font-size-h2{
+  margin-top:2%;
+  font-size:30px;
+  line-height: 40px;
+}
+
+.font-size-h3{
+  margin-top:2%;
+  font-size:25px;
+  line-height: 40px;
+}
+
+.font-size-h4{
+  margin-top:2%;
+  font-size:20px;
+  line-height: 35px;
+}
+
+.small-span{
+  font-size:12px;
+}
+
+.margin-fix-tb{
+  margin-top: 2%;
+  margin-bottom:2%;
+}
+
+.margin-fix-lr{
+  margin-right: 2.75%;
+  margin-left: 2.75%;
+}
+
+.padding-fix-tb{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.padding-fix-lr{
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+/* BACKGROUNDS */
+.bg-light-blue{
+  background-color: rgb(244, 249, 253);
+}
+
+.bg-petrol{
+  background-color: rgb(51, 74, 91);
+}
+
+.paper{
+  background-color: white;
+  border:1px, solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px lightgrey;
+}
+
 /* TOP BAR */
 .language-contact{
   text-align: left;
@@ -60,44 +128,6 @@ nav {
   margin-bottom: auto;
 }
 
-/* ADJUSTMENTS */
-.margin-fix-tb{
-  margin-top: 2%;
-  margin-bottom:2%;
-}
-
-.margin-fix-lr{
-  margin-right: 2.75%;
-  margin-left: 2.75%;
-}
-
-.padding-fix-tb{
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
-.padding-fix-lr{
-  padding-right: 2%;
-  padding-left: 2%;
-}
-
-/* BACKGROUNDS */
-.bg-light-blue{
-  background-color: rgb(244, 249, 253);
-}
-
-.bg-petrol{
-  background-color: rgb(51, 74, 91);
-}
-
-.paper{
-  background-color: white;
-  border:1px, solid lightgrey;
-  border-radius: 5px;
-  box-shadow: 3px 3px 3px lightgrey;
-
-}
-
 /* TITLE-SECTION */
 
 .bg{
@@ -114,7 +144,7 @@ nav {
 
 .left-title-section-top{
   height:25%;
-  border:1px solid black
+  border:1px solid black;
 }
 
 .left-title-section-middle{
@@ -313,25 +343,27 @@ nav {
 /* ASIAN GIRL SECTION */
 
 .asiangirl-left-section-top{
-  height:30%;
+  height:40%;
   border:1px solid black;
   color:rgb(0, 43, 128, 0.8);
 }
 
 .asiangirl-left-section-top-title{
+  padding-left: 12.5%;
   height:50%;
   border:1px solid black;
   color:rgb(0, 43, 128, 0.8);
 }
 
 .asiangirl-left-section-top-paragraph{
+  padding-left: 12.5%;
   height:50%;
   border:1px solid black;
   color:rgb(0, 43, 128, 0.8);
 }
 
 .asiangirl-left-section-below{
-  height:70%;
+  height:60%;
   border:1px solid black;
   color:rgb(0, 43, 128, 0.8);
 }
