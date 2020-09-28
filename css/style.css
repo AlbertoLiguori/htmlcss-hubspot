@@ -30,7 +30,6 @@ h2{
 }
 
 h4{
-  margin-top:2%;
   font-size:20px;
   line-height: 35px;
 }
@@ -160,7 +159,6 @@ nav {
 
 [class*="left-title-section"]{
   height:25%;
-  border:1px solid black;
 }
 
 .button{
@@ -283,6 +281,8 @@ nav {
   color:rgb(0, 43, 128, 0.8);
   padding-right:3%;
   padding-left:3%;
+  padding-top:3%;
+  padding-bottom:3%;
 }
 
 
@@ -323,6 +323,7 @@ nav {
 }
 
 [class*="column-bottom-button"]{
+  margin-top:10%;
   height:33%;
 }
 
@@ -334,6 +335,11 @@ nav {
   color: white;
 }
 
+.azure-section-container{
+  height:100%;
+  padding-top:5%;
+  padding-bottom:5%;
+}
 .azure-section-title{
   height:20%;
 }
@@ -387,35 +393,60 @@ nav {
 
 /* ASIAN GIRL SECTION */
 
-.asiangirl-left-section-top{
+.asian-girl-section-container{
+  height:100%;
+  padding-top:5%;
+}
+
+.asian-girl-left-section{
+  height:100%;
+}
+
+.asian-girl-left-section-top{
   height:40%;
-  color:rgb(0, 43, 128, 0.8);
+  padding-left:20%;
 }
 
-.asiangirl-left-section-top-title{
-  padding-left: 12.5%;
+.asian-girl-left-section-top-title{
+  color:rgb(0, 43, 128, 0.8);
   height:50%;
-  color:rgb(0, 43, 128, 0.8);
 }
 
-.asiangirl-left-section-top-paragraph{
-  padding-left: 12.5%;
+.asian-girl-left-section-top-paragraph{
+  color:rgb(0, 43, 128, 0.8);
   height:50%;
-  color:rgb(0, 43, 128, 0.8);
 }
 
-.asiangirl-left-section-below{
+.asian-girl-left-section-below{
+  color:rgb(0, 43, 128, 0.8);
   height:60%;
-  color:rgb(0, 43, 128, 0.8);
 }
 
-[class*="asiangirl-left-section-bottom"]{
+.asian-girl-left-section-below-tile{
   color:rgb(0, 43, 128, 0.8);
-  height:28%;
+  height:25%;
+}
+
+.asian-girl-left-section-below-paragraph{
+  color:rgb(0, 43, 128, 0.8);
+  height:25%;
+}
+
+.asian-girl-left-section-below-button{
+  height:35%;
+}
+
+.asian-girl-left-section-below-span{
+  color:rgb(0, 43, 128, 0.8);
+  height:15%;
+}
+
+.asian-girl-right-section{
+  height:100%;
 }
 
 .sponsorlogo{
-  height:30%;
+  height:20%;
   text-align: center;
 }
 
@@ -440,15 +471,18 @@ nav {
   transform: translate(-50%, -50%);
 }
 
-
 .asiangirl-photo{
-  height:60%;
+  height:65%;
+  position: relative;
+
 }
 
-.ad-ordinem-tristitiae-redimus{
-  height:100%;
-  width:auto;
-  float:right;
+.woman{
+  position:absolute;
+  top:60%;
+  right:0%;
+  transform: translateY(-50%);
+  height:75%;
 }
 
 /* BAGGIANATE */
@@ -457,6 +491,9 @@ nav {
   color:white;
 }
 
+.baggiante-container{
+  padding-top:3%;
+}
 .four-columns-baggianate{
   height:70%;
 }
