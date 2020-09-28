@@ -73,11 +73,12 @@ h4{
   background-color: rgb(51, 74, 91);
 }
 
-.paper{
+.widget{
   background-color: white;
   border:1px, solid lightgrey;
   border-radius: 5px;
   box-shadow: 3px 3px 3px lightgrey;
+  
 }
 
 /* TOP BAR */
@@ -109,6 +110,12 @@ nav {
   display: inline-block;
 }
 
+.central-body{
+  width:66.66%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container{
   padding-left: 16.66%;
   padding-right: 16.66%;
@@ -134,17 +141,12 @@ nav {
 /* TITLE-SECTION */
 
 .bg{
-  background-image: url(../img/bghubspot.jpg);
-  background-size: 100% 100%;
-}
-
-.right-title-section{
-  background-image: url("../img/temporarybg.png");
-  background-size:cover;
+  background-image: url("../img/bghubspot.jpg");
+  background-size: 1920px ;
+  background-position: bottom;
+  background-position: right;
   background-repeat: no-repeat;
-
 }
-
 
 [class*="left-title-section"]{
   height:25%;
@@ -161,6 +163,7 @@ nav {
 }
 
 /* BOTTOM-BAR */
+
 .bottom-bar{
   background-color: #b3fff0;
   border-top: 2px solid #0077b3;
@@ -216,6 +219,7 @@ nav {
   text-align: left;
   color:rgb(0, 43, 128, 0.8);
   height:33%;
+
 }
 
 .right-fh-section-bottom ul li{
